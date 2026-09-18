@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Editors / IDE
+.vscode/
+.idea/
+
+# Local secrets / env
+.env
+*.key
+
+# Large local artifacts (model weights) — not for git
+*.safetensors
+*.bin
+*.pt
+*.ckpt
