@@ -1,0 +1,55 @@
+{
+  "protocol": "lapa-ru-input-merge-preflight-v1",
+  "merges": 4096,
+  "python": "3.13.0",
+  "platform": "macOS-14.7.1-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "transformers": "5.3.0",
+    "tokenizers": "0.22.2"
+  },
+  "train": {
+    "documents": 10000,
+    "before": 8678032,
+    "after": 7838729,
+    "reduction": 0.09671582220485009,
+    "longer": 0
+  },
+  "dev": {
+    "documents": 1000,
+    "before": 865943,
+    "after": 785126,
+    "reduction": 0.09332831375737205,
+    "longer": 0
+  },
+  "validation": {
+    "documents": 70,
+    "before": 15767,
+    "after": 15377,
+    "reduction": 0.02473520644383842,
+    "longer": 0
+  },
+  "timing": {
+    "seconds": {
+      "original": [
+        0.23715800000354648,
+        0.24154270795406774,
+        0.23519129102351144,
+        0.2373860829975456,
+        0.23019987501902506
+      ],
+      "adapted": [
+        0.38843450002605096,
+        0.38496124994708225,
+        0.3821515840245411,
+        0.3850027080043219,
+        0.38626554096117616
+      ]
+    },
+    "overhead_ms_per_document": 0.7392235400038771,
+    "documents": 200,
+    "warmup_rounds": 1,
+    "scope": "CPU tokenizer + offsets + grouping; no GPU/embedding"
+  },
+  "passed": false,
+  "decision": "no_go"
+}

@@ -36,6 +36,8 @@
 Зафиксирован воспроизводимый **baseline**: замороженная Qwen (NF4),
 zero-shot direct answer на **MMLU-ProX-Lite RU** — 56.29% accuracy
 (331/588, Wilson 95% CI 52.26–60.25%), среднее время ответа ~1.09 с.
+Отдельный прогон в ноутбуке воспроизвёл результат в пределах одного
+вопроса: 56.12% (330/588).
 
 Поверх baseline проверены две гипотезы адаптации входа — обе не прошли
 заранее заданные пороги (`no_go`):
@@ -60,5 +62,20 @@ zero-shot direct answer на **MMLU-ProX-Lite RU** — 56.29% accuracy
 
 ## Материалы
 
-- Протокол и результаты baseline — `docs/`
-- Журнал экспериментов — подробные результаты и технические детали
+- Протокол и результаты baseline — [`docs/baseline.md`](docs/baseline.md);
+  сводка исходного прогона —
+  [`results/baseline_original_summary.json`](results/baseline_original_summary.json)
+- Baseline (полный автономный прогон) —
+  [`notebooks/baseline-mmluprox-ru.ipynb`](notebooks/baseline-mmluprox-ru.ipynb),
+  результаты — [`results/baseline_results.json`](results/baseline_results.json)
+- Эксперимент 1 (расширение словаря токенизатора) —
+  [`notebooks/experiment-1-tokenizer-vocab-extension.ipynb`](notebooks/experiment-1-tokenizer-vocab-extension.ipynb),
+  исходный отчёт — [`results/experiment-1-report.json`](results/experiment-1-report.json)
+- Эксперимент 2 (объединение токенов на входе) —
+  [`notebooks/experiment-2-input-token-merge.ipynb`](notebooks/experiment-2-input-token-merge.ipynb),
+  исходный отчёт — [`results/experiment-2-report.json`](results/experiment-2-report.json)
+
+Все три ноутбука самодостаточны: скачивают модель/токенизатор/данные
+напрямую с HuggingFace Hub (закреплённые revision), не требуют других
+файлов репозитория. Baseline-ноутбуку нужна GPU (рекомендуется A100
+40GB); оба эксперимента — чисто CPU.

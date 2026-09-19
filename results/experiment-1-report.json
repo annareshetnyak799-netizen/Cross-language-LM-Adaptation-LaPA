@@ -1,0 +1,104 @@
+{
+  "packages": {
+    "transformers": "5.3.0",
+    "tokenizers": "0.22.2",
+    "pyarrow": "19.0.1"
+  },
+  "validation_sha256": "f3943c3979e5dca9ddfe473aad50937954804309d2cea5fff18f944d4e34f09e",
+  "baseline_config_sha256": "6f76d7afc649986958b636e0770538697dbc63d1922691c18054955b6302f39d",
+  "protocol": {
+    "protocol": "lapa-ru-tokenizer-audit-v1",
+    "source": {
+      "dataset": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "subset": "20231101.ru",
+      "file": "20231101.ru/train-00001-of-00021.parquet",
+      "sha256": "1e099f0e54624cb49573b632ccc750806dc64803707c499f3492ed6550cb3227",
+      "bytes": 301948627,
+      "license_card": [
+        "cc-by-sa-3.0",
+        "gfdl"
+      ]
+    },
+    "seed": 20260915,
+    "train_documents": 10000,
+    "dev_documents": 1000,
+    "max_characters": 5000,
+    "min_characters": 400,
+    "min_russian_letter_fraction": 0.8,
+    "new_tokens": 4096,
+    "min_word_frequency": 5,
+    "min_word_length": 3,
+    "max_word_length": 40,
+    "timing_documents": 200,
+    "timing_repeats": 5,
+    "min_dev_token_reduction": 0.05,
+    "min_validation_token_reduction": 0.0,
+    "max_tokenization_slowdown": 1.5,
+    "candidate_method": "frequency_times_estimated_savings_whole_RU_words_AddedToken_single_word",
+    "benchmark_exclusion": "normalized full question containment, including test only for exclusion; no answers or scores",
+    "note": "One candidate only. RU corpus and evaluation only. Tokenizer audit, not learned model or GPU result."
+  },
+  "corpus_manifest_sha256": "23ab54bf25e92218fd79a2d435f156c026ad744d6fceea908ac052bac5d05bd2",
+  "baseline_archive_sha256": "75cb0a9c8a4860a6383e6e3027a4a4df6c2f2e92cd45665b04811352e53a1b46",
+  "python": "3.13.0",
+  "platform": "macOS-14.7.1-arm64-arm-64bit-Mach-O",
+  "new_tokens": 4096,
+  "original_tokenizer_size": 248077,
+  "extended_tokenizer_size": 252173,
+  "original_model_vocab_size": 248320,
+  "required_model_vocab_size": 252173,
+  "train": {
+    "count": 10000,
+    "baseline_normalized_texts": 0,
+    "original_tokens": 8678032,
+    "extended_tokens": 9019726,
+    "token_reduction": -0.039374595530415224,
+    "original_mean": 867.8032,
+    "extended_mean": 901.9726,
+    "documents_longer": 7132
+  },
+  "dev": {
+    "count": 1000,
+    "baseline_normalized_texts": 0,
+    "original_tokens": 865943,
+    "extended_tokens": 901680,
+    "token_reduction": -0.041269459999099256,
+    "original_mean": 865.943,
+    "extended_mean": 901.68,
+    "documents_longer": 729
+  },
+  "validation_prompts": {
+    "count": 70,
+    "baseline_normalized_texts": 0,
+    "original_tokens": 15767,
+    "extended_tokens": 16672,
+    "token_reduction": -0.0573983636709583,
+    "original_mean": 225.24285714285713,
+    "extended_mean": 238.17142857142858,
+    "documents_longer": 70
+  },
+  "timing": {
+    "seconds": {
+      "original": [
+        0.29185720800887793,
+        0.28579187497962266,
+        0.2858837910462171,
+        0.28833633300382644,
+        0.28512991598108783
+      ],
+      "extended": [
+        0.2763490410288796,
+        0.27521066600456834,
+        0.2717165829963051,
+        0.2711187500390224,
+        0.2709014159627259
+      ]
+    },
+    "documents": 200,
+    "median_slowdown": 0.9504441717452191,
+    "scope": "CPU encode only; 1 warmup + alternating serial rounds"
+  },
+  "checks": "baseline-normalized roundtrip, old IDs, specials, chat template, reload passed",
+  "passed": false
+}
