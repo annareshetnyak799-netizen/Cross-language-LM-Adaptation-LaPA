@@ -1,0 +1,5456 @@
+{
+  "status": "measured",
+  "quality_first_repeat": {
+    "count": 588,
+    "correct": 331,
+    "accuracy": 0.5629251700680272,
+    "accuracy_wilson_95": [
+      0.5225525249990811,
+      0.6024809597240958
+    ],
+    "subjects": {
+      "biology": {
+        "count": 36,
+        "correct": 32,
+        "accuracy": 0.8888888888888888
+      },
+      "business": {
+        "count": 40,
+        "correct": 22,
+        "accuracy": 0.55
+      },
+      "chemistry": {
+        "count": 56,
+        "correct": 22,
+        "accuracy": 0.39285714285714285
+      },
+      "computer science": {
+        "count": 20,
+        "correct": 12,
+        "accuracy": 0.6
+      },
+      "economics": {
+        "count": 42,
+        "correct": 31,
+        "accuracy": 0.7380952380952381
+      },
+      "engineering": {
+        "count": 48,
+        "correct": 31,
+        "accuracy": 0.6458333333333334
+      },
+      "health": {
+        "count": 35,
+        "correct": 24,
+        "accuracy": 0.6857142857142857
+      },
+      "history": {
+        "count": 19,
+        "correct": 11,
+        "accuracy": 0.5789473684210527
+      },
+      "law": {
+        "count": 48,
+        "correct": 20,
+        "accuracy": 0.4166666666666667
+      },
+      "math": {
+        "count": 68,
+        "correct": 33,
+        "accuracy": 0.4852941176470588
+      },
+      "other": {
+        "count": 46,
+        "correct": 18,
+        "accuracy": 0.391304347826087
+      },
+      "philosophy": {
+        "count": 25,
+        "correct": 16,
+        "accuracy": 0.64
+      },
+      "physics": {
+        "count": 65,
+        "correct": 30,
+        "accuracy": 0.46153846153846156
+      },
+      "psychology": {
+        "count": 40,
+        "correct": 29,
+        "accuracy": 0.725
+      }
+    },
+    "subject_macro_accuracy": 0.5857242750705868,
+    "answer_extraction_rate": 1.0,
+    "multiple_distinct_answers": 0,
+    "per_question": [
+      {
+        "id": "test:187",
+        "category": "psychology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:218",
+        "category": "biology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:341",
+        "category": "other",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:406",
+        "category": "economics",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:74",
+        "category": "business",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:466",
+        "category": "math",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:217",
+        "category": "biology",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:616",
+        "category": "engineering",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:564",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:538",
+        "category": "physics",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:110",
+        "category": "law",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:271",
+        "category": "chemistry",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:240",
+        "category": "chemistry",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:423",
+        "category": "economics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:498",
+        "category": "math",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:363",
+        "category": "health",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:355",
+        "category": "health",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:514",
+        "category": "physics",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:230",
+        "category": "biology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:407",
+        "category": "economics",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:93",
+        "category": "business",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:166",
+        "category": "psychology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:92",
+        "category": "business",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:244",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:268",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:602",
+        "category": "philosophy",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:619",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:159",
+        "category": "psychology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:637",
+        "category": "engineering",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:636",
+        "category": "engineering",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:334",
+        "category": "other",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:516",
+        "category": "physics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:112",
+        "category": "law",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:158",
+        "category": "psychology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:266",
+        "category": "chemistry",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:629",
+        "category": "engineering",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:610",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:569",
+        "category": "computer science",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:257",
+        "category": "chemistry",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:183",
+        "category": "psychology",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:261",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:160",
+        "category": "psychology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:310",
+        "category": "other",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:305",
+        "category": "history",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:108",
+        "category": "business",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:262",
+        "category": "chemistry",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:295",
+        "category": "history",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:361",
+        "category": "health",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:296",
+        "category": "history",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:607",
+        "category": "philosophy",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:431",
+        "category": "economics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:139",
+        "category": "law",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:485",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:336",
+        "category": "other",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:623",
+        "category": "engineering",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:269",
+        "category": "chemistry",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:306",
+        "category": "history",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:127",
+        "category": "law",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:380",
+        "category": "health",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:622",
+        "category": "engineering",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:224",
+        "category": "biology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:223",
+        "category": "biology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:184",
+        "category": "psychology",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:97",
+        "category": "business",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:550",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:525",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:548",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:317",
+        "category": "other",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:452",
+        "category": "math",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:638",
+        "category": "engineering",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:275",
+        "category": "chemistry",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:479",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:463",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:362",
+        "category": "health",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:106",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:228",
+        "category": "biology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:136",
+        "category": "law",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:251",
+        "category": "chemistry",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:286",
+        "category": "chemistry",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:578",
+        "category": "computer science",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:568",
+        "category": "computer science",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:243",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:378",
+        "category": "health",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:556",
+        "category": "physics",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:462",
+        "category": "math",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:138",
+        "category": "law",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:375",
+        "category": "health",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:367",
+        "category": "health",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:471",
+        "category": "math",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:392",
+        "category": "economics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:323",
+        "category": "other",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:78",
+        "category": "business",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:232",
+        "category": "biology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:476",
+        "category": "math",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:163",
+        "category": "psychology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:606",
+        "category": "philosophy",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:199",
+        "category": "biology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:503",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:80",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:446",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:227",
+        "category": "biology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:579",
+        "category": "computer science",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:185",
+        "category": "psychology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:241",
+        "category": "chemistry",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:398",
+        "category": "economics",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:144",
+        "category": "law",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:313",
+        "category": "other",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:384",
+        "category": "health",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:468",
+        "category": "math",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:585",
+        "category": "philosophy",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:253",
+        "category": "chemistry",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:175",
+        "category": "psychology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:235",
+        "category": "chemistry",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:169",
+        "category": "psychology",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:311",
+        "category": "other",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:314",
+        "category": "other",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:526",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:593",
+        "category": "philosophy",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:430",
+        "category": "economics",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:449",
+        "category": "math",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:252",
+        "category": "chemistry",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:349",
+        "category": "other",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:439",
+        "category": "math",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:653",
+        "category": "engineering",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:285",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:338",
+        "category": "other",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:203",
+        "category": "biology",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:149",
+        "category": "law",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:391",
+        "category": "economics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:481",
+        "category": "math",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:506",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:107",
+        "category": "business",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:402",
+        "category": "economics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:633",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:459",
+        "category": "math",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:202",
+        "category": "biology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:88",
+        "category": "business",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:168",
+        "category": "psychology",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:186",
+        "category": "psychology",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:239",
+        "category": "chemistry",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:405",
+        "category": "economics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:379",
+        "category": "health",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:519",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:155",
+        "category": "law",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:589",
+        "category": "philosophy",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:321",
+        "category": "other",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:592",
+        "category": "philosophy",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:137",
+        "category": "law",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:554",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:180",
+        "category": "psychology",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:562",
+        "category": "physics",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:312",
+        "category": "other",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:315",
+        "category": "other",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:630",
+        "category": "engineering",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:246",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:508",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:222",
+        "category": "biology",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:302",
+        "category": "history",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:513",
+        "category": "physics",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:544",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:292",
+        "category": "history",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:643",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:547",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:95",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:135",
+        "category": "law",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:609",
+        "category": "philosophy",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:522",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:603",
+        "category": "philosophy",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:216",
+        "category": "biology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:209",
+        "category": "biology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:635",
+        "category": "engineering",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:193",
+        "category": "psychology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:639",
+        "category": "engineering",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:528",
+        "category": "physics",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:119",
+        "category": "law",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:483",
+        "category": "math",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:197",
+        "category": "psychology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:289",
+        "category": "chemistry",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:437",
+        "category": "math",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:374",
+        "category": "health",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:470",
+        "category": "math",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:626",
+        "category": "engineering",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:394",
+        "category": "economics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:263",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:100",
+        "category": "business",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:151",
+        "category": "law",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:245",
+        "category": "chemistry",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:560",
+        "category": "physics",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:412",
+        "category": "economics",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:432",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:89",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:628",
+        "category": "engineering",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:77",
+        "category": "business",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:469",
+        "category": "math",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:566",
+        "category": "computer science",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:447",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:126",
+        "category": "law",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:102",
+        "category": "business",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:238",
+        "category": "chemistry",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:84",
+        "category": "business",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:652",
+        "category": "engineering",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:571",
+        "category": "computer science",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:147",
+        "category": "law",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:125",
+        "category": "law",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:438",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:641",
+        "category": "engineering",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:478",
+        "category": "math",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:250",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:474",
+        "category": "math",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:442",
+        "category": "math",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:124",
+        "category": "law",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:76",
+        "category": "business",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:646",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:330",
+        "category": "other",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:444",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:627",
+        "category": "engineering",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:104",
+        "category": "business",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:131",
+        "category": "law",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:531",
+        "category": "physics",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:634",
+        "category": "engineering",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:236",
+        "category": "chemistry",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:497",
+        "category": "math",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:590",
+        "category": "philosophy",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:99",
+        "category": "business",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:433",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:194",
+        "category": "psychology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:611",
+        "category": "engineering",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:369",
+        "category": "health",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:272",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:179",
+        "category": "psychology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:358",
+        "category": "health",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:142",
+        "category": "law",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:249",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:278",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:280",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:350",
+        "category": "other",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:582",
+        "category": "computer science",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:496",
+        "category": "math",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:96",
+        "category": "business",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:120",
+        "category": "law",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:419",
+        "category": "economics",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:165",
+        "category": "psychology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:267",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:353",
+        "category": "other",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:618",
+        "category": "engineering",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:576",
+        "category": "computer science",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:397",
+        "category": "economics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:502",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:527",
+        "category": "physics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:225",
+        "category": "biology",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:456",
+        "category": "math",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:198",
+        "category": "biology",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:435",
+        "category": "math",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:557",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:649",
+        "category": "engineering",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:486",
+        "category": "math",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:605",
+        "category": "philosophy",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:385",
+        "category": "health",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:276",
+        "category": "chemistry",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:558",
+        "category": "physics",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:360",
+        "category": "health",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:365",
+        "category": "health",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:401",
+        "category": "economics",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:231",
+        "category": "biology",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:176",
+        "category": "psychology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:196",
+        "category": "psychology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:357",
+        "category": "health",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:71",
+        "category": "business",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:521",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:489",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:133",
+        "category": "law",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:647",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:586",
+        "category": "philosophy",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:577",
+        "category": "computer science",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:570",
+        "category": "computer science",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:396",
+        "category": "economics",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:212",
+        "category": "biology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:418",
+        "category": "economics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:335",
+        "category": "other",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:620",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:422",
+        "category": "economics",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:429",
+        "category": "economics",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:157",
+        "category": "law",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:490",
+        "category": "math",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:319",
+        "category": "other",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:537",
+        "category": "physics",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:114",
+        "category": "law",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:543",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:457",
+        "category": "math",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:174",
+        "category": "psychology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:631",
+        "category": "engineering",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:211",
+        "category": "biology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:416",
+        "category": "economics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:134",
+        "category": "law",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:259",
+        "category": "chemistry",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:270",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:98",
+        "category": "business",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:322",
+        "category": "other",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:346",
+        "category": "other",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:587",
+        "category": "philosophy",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:247",
+        "category": "chemistry",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:339",
+        "category": "other",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:116",
+        "category": "law",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:130",
+        "category": "law",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:400",
+        "category": "economics",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:172",
+        "category": "psychology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:282",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:604",
+        "category": "philosophy",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:477",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:113",
+        "category": "law",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:559",
+        "category": "physics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:399",
+        "category": "economics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:293",
+        "category": "history",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:115",
+        "category": "law",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:234",
+        "category": "chemistry",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:415",
+        "category": "economics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:182",
+        "category": "psychology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:597",
+        "category": "philosophy",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:414",
+        "category": "economics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:178",
+        "category": "psychology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:403",
+        "category": "economics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:210",
+        "category": "biology",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:467",
+        "category": "math",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:226",
+        "category": "biology",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:242",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:191",
+        "category": "psychology",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:118",
+        "category": "law",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:103",
+        "category": "business",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:273",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:512",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:517",
+        "category": "physics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:248",
+        "category": "chemistry",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:170",
+        "category": "psychology",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:340",
+        "category": "other",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:505",
+        "category": "physics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:309",
+        "category": "other",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:279",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:343",
+        "category": "other",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:464",
+        "category": "math",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:204",
+        "category": "biology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:316",
+        "category": "other",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:344",
+        "category": "other",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:387",
+        "category": "health",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:161",
+        "category": "psychology",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:274",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:421",
+        "category": "economics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:299",
+        "category": "history",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:388",
+        "category": "health",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:530",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:373",
+        "category": "health",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:404",
+        "category": "economics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:219",
+        "category": "biology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:621",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:617",
+        "category": "engineering",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:460",
+        "category": "math",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:480",
+        "category": "math",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:487",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:215",
+        "category": "biology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:90",
+        "category": "business",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:304",
+        "category": "history",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:552",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:436",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:545",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:655",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:656",
+        "category": "engineering",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:105",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:332",
+        "category": "other",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:325",
+        "category": "other",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:233",
+        "category": "biology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:298",
+        "category": "history",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:642",
+        "category": "engineering",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:206",
+        "category": "biology",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:359",
+        "category": "health",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:83",
+        "category": "business",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:143",
+        "category": "law",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:546",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:307",
+        "category": "history",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:377",
+        "category": "health",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:371",
+        "category": "health",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:409",
+        "category": "economics",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:162",
+        "category": "psychology",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:342",
+        "category": "other",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:518",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:411",
+        "category": "economics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:555",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:600",
+        "category": "philosophy",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:465",
+        "category": "math",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:504",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:488",
+        "category": "math",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:654",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:510",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:565",
+        "category": "computer science",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:189",
+        "category": "psychology",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:523",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:87",
+        "category": "business",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:501",
+        "category": "physics",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:553",
+        "category": "physics",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:364",
+        "category": "health",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:536",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:326",
+        "category": "other",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:448",
+        "category": "math",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:221",
+        "category": "biology",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:588",
+        "category": "philosophy",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:426",
+        "category": "economics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:541",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:495",
+        "category": "math",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:584",
+        "category": "computer science",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:324",
+        "category": "other",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:354",
+        "category": "other",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:200",
+        "category": "biology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:614",
+        "category": "engineering",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:260",
+        "category": "chemistry",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:386",
+        "category": "health",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:152",
+        "category": "law",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:529",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:281",
+        "category": "chemistry",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:109",
+        "category": "business",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:141",
+        "category": "law",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:507",
+        "category": "physics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:256",
+        "category": "chemistry",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:493",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:453",
+        "category": "math",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:561",
+        "category": "physics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:79",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:445",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:148",
+        "category": "law",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:492",
+        "category": "math",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:348",
+        "category": "other",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:277",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:351",
+        "category": "other",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:393",
+        "category": "economics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:258",
+        "category": "chemistry",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:644",
+        "category": "engineering",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:85",
+        "category": "business",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:515",
+        "category": "physics",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:645",
+        "category": "engineering",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:624",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:290",
+        "category": "history",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:297",
+        "category": "history",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:499",
+        "category": "math",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:303",
+        "category": "history",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:347",
+        "category": "other",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:413",
+        "category": "economics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:482",
+        "category": "math",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:632",
+        "category": "engineering",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:150",
+        "category": "law",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:494",
+        "category": "math",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:320",
+        "category": "other",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:381",
+        "category": "health",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:140",
+        "category": "law",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:177",
+        "category": "psychology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:425",
+        "category": "economics",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:551",
+        "category": "physics",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:181",
+        "category": "psychology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:424",
+        "category": "economics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:598",
+        "category": "philosophy",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:291",
+        "category": "history",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:382",
+        "category": "health",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:583",
+        "category": "computer science",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:356",
+        "category": "health",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:651",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:461",
+        "category": "math",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:390",
+        "category": "economics",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:511",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:532",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:540",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:255",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:328",
+        "category": "other",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:440",
+        "category": "math",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:535",
+        "category": "physics",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:352",
+        "category": "other",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:220",
+        "category": "biology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:70",
+        "category": "business",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:368",
+        "category": "health",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:300",
+        "category": "history",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:458",
+        "category": "math",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:434",
+        "category": "math",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:145",
+        "category": "law",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:329",
+        "category": "other",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:101",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:542",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:345",
+        "category": "other",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:171",
+        "category": "psychology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:265",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:567",
+        "category": "computer science",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:599",
+        "category": "philosophy",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:301",
+        "category": "history",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:94",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:383",
+        "category": "health",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:650",
+        "category": "engineering",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:75",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:164",
+        "category": "psychology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:581",
+        "category": "computer science",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:533",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:337",
+        "category": "other",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:441",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:129",
+        "category": "law",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:372",
+        "category": "health",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:657",
+        "category": "engineering",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:327",
+        "category": "other",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:121",
+        "category": "law",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:72",
+        "category": "business",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:208",
+        "category": "biology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:91",
+        "category": "business",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:213",
+        "category": "biology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:601",
+        "category": "philosophy",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:81",
+        "category": "business",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:318",
+        "category": "other",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:420",
+        "category": "economics",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:190",
+        "category": "psychology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:473",
+        "category": "math",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:192",
+        "category": "psychology",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:524",
+        "category": "physics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:455",
+        "category": "math",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:648",
+        "category": "engineering",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:156",
+        "category": "law",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:591",
+        "category": "philosophy",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:205",
+        "category": "biology",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:188",
+        "category": "psychology",
+        "extracted": "F",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:549",
+        "category": "physics",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:491",
+        "category": "math",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:594",
+        "category": "philosophy",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:173",
+        "category": "psychology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:287",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:86",
+        "category": "business",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:146",
+        "category": "law",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:615",
+        "category": "engineering",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:366",
+        "category": "health",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:132",
+        "category": "law",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:472",
+        "category": "math",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:596",
+        "category": "philosophy",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:229",
+        "category": "biology",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:395",
+        "category": "economics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:376",
+        "category": "health",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:201",
+        "category": "biology",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:73",
+        "category": "business",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:153",
+        "category": "law",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:428",
+        "category": "economics",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:294",
+        "category": "history",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:123",
+        "category": "law",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:417",
+        "category": "economics",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:640",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:574",
+        "category": "computer science",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:520",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:82",
+        "category": "business",
+        "extracted": "D",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:331",
+        "category": "other",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:254",
+        "category": "chemistry",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:612",
+        "category": "engineering",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:117",
+        "category": "law",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:408",
+        "category": "economics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:573",
+        "category": "computer science",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:563",
+        "category": "physics",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:534",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:427",
+        "category": "economics",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:370",
+        "category": "health",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:111",
+        "category": "law",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:595",
+        "category": "philosophy",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:613",
+        "category": "engineering",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:284",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:539",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:288",
+        "category": "chemistry",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:608",
+        "category": "philosophy",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:450",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:389",
+        "category": "health",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:154",
+        "category": "law",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:333",
+        "category": "other",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:195",
+        "category": "psychology",
+        "extracted": "H",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:509",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:572",
+        "category": "computer science",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:484",
+        "category": "math",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:214",
+        "category": "biology",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:580",
+        "category": "computer science",
+        "extracted": "C",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:575",
+        "category": "computer science",
+        "extracted": "E",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:128",
+        "category": "law",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:237",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:207",
+        "category": "biology",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:625",
+        "category": "engineering",
+        "extracted": "G",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:283",
+        "category": "chemistry",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:475",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:443",
+        "category": "math",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:122",
+        "category": "law",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:410",
+        "category": "economics",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:500",
+        "category": "physics",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:454",
+        "category": "math",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:451",
+        "category": "math",
+        "extracted": "B",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:308",
+        "category": "history",
+        "extracted": "J",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      },
+      {
+        "id": "test:264",
+        "category": "chemistry",
+        "extracted": "A",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": false
+      },
+      {
+        "id": "test:167",
+        "category": "psychology",
+        "extracted": "I",
+        "valid_answer": true,
+        "distinct_matches": 1,
+        "correct": true
+      }
+    ]
+  },
+  "runtime": {
+    "e2e_latency_sec": {
+      "count": 588,
+      "mean": 1.0872259683503411,
+      "p50": 0.9273112174998914,
+      "p95": 1.3106050127500453
+    },
+    "ttft_sec": {
+      "count": 588,
+      "mean": 0.3352720296241516,
+      "p50": 0.33426245700002255,
+      "p95": 0.34434173130000545
+    },
+    "tpot_sec": {
+      "count": 588,
+      "mean": 0.19207055641575832,
+      "p50": 0.1919552408000224,
+      "p95": 0.19660550192992862
+    },
+    "input_tokens": {
+      "count": 588,
+      "mean": 297.015306122449,
+      "p50": 256.0,
+      "p95": 577.5999999999999
+    },
+    "generated_tokens_including_eos": {
+      "count": 588,
+      "mean": 4.91156462585034,
+      "p50": 4.0,
+      "p95": 6.0
+    }
+  },
+  "throughput_requests_per_second": 0.9195114501257305,
+  "repeat_throughput": {
+    "0": 0.9195114501257305
+  },
+  "memory_per_repeat": [
+    {
+      "free_bytes": 22990487552,
+      "total_bytes": 42405855232,
+      "allocated_bytes": 17703030784,
+      "reserved_bytes": 18840813568,
+      "peak_allocated_bytes": 18285535232,
+      "peak_reserved_bytes": 18840813568
+    }
+  ],
+  "technical_counts": {
+    "empty": 0,
+    "truncated": 0
+  },
+  "technical_rates": {
+    "empty": 0.0,
+    "truncated": 0.0
+  },
+  "prediction_drift_questions": null,
+  "tokenization": {
+    "input_lengths": {
+      "test:70": 287,
+      "test:71": 379,
+      "test:72": 170,
+      "test:73": 143,
+      "test:74": 431,
+      "test:75": 163,
+      "test:76": 233,
+      "test:77": 250,
+      "test:78": 201,
+      "test:79": 208,
+      "test:80": 329,
+      "test:81": 249,
+      "test:82": 160,
+      "test:83": 260,
+      "test:84": 340,
+      "test:85": 431,
+      "test:86": 222,
+      "test:87": 182,
+      "test:88": 380,
+      "test:89": 417,
+      "test:90": 213,
+      "test:91": 178,
+      "test:92": 228,
+      "test:93": 222,
+      "test:94": 220,
+      "test:95": 192,
+      "test:96": 382,
+      "test:97": 385,
+      "test:98": 280,
+      "test:99": 226,
+      "test:100": 248,
+      "test:101": 276,
+      "test:102": 356,
+      "test:103": 204,
+      "test:104": 170,
+      "test:105": 196,
+      "test:106": 183,
+      "test:107": 230,
+      "test:108": 209,
+      "test:109": 273,
+      "test:110": 508,
+      "test:111": 303,
+      "test:112": 490,
+      "test:113": 459,
+      "test:114": 667,
+      "test:115": 599,
+      "test:116": 517,
+      "test:117": 278,
+      "test:118": 565,
+      "test:119": 452,
+      "test:120": 461,
+      "test:121": 430,
+      "test:122": 575,
+      "test:123": 528,
+      "test:124": 359,
+      "test:125": 907,
+      "test:126": 523,
+      "test:127": 559,
+      "test:128": 114,
+      "test:129": 507,
+      "test:130": 311,
+      "test:131": 679,
+      "test:132": 508,
+      "test:133": 276,
+      "test:134": 570,
+      "test:135": 414,
+      "test:136": 493,
+      "test:137": 392,
+      "test:138": 478,
+      "test:139": 632,
+      "test:140": 420,
+      "test:141": 533,
+      "test:142": 403,
+      "test:143": 455,
+      "test:144": 326,
+      "test:145": 501,
+      "test:146": 593,
+      "test:147": 579,
+      "test:148": 469,
+      "test:149": 605,
+      "test:150": 313,
+      "test:151": 616,
+      "test:152": 465,
+      "test:153": 338,
+      "test:154": 498,
+      "test:155": 179,
+      "test:156": 362,
+      "test:157": 403,
+      "test:158": 165,
+      "test:159": 159,
+      "test:160": 430,
+      "test:161": 220,
+      "test:162": 240,
+      "test:163": 510,
+      "test:164": 367,
+      "test:165": 421,
+      "test:166": 172,
+      "test:167": 460,
+      "test:168": 281,
+      "test:169": 168,
+      "test:170": 302,
+      "test:171": 180,
+      "test:172": 145,
+      "test:173": 282,
+      "test:174": 160,
+      "test:175": 214,
+      "test:176": 522,
+      "test:177": 150,
+      "test:178": 220,
+      "test:179": 290,
+      "test:180": 226,
+      "test:181": 156,
+      "test:182": 404,
+      "test:183": 298,
+      "test:184": 280,
+      "test:185": 232,
+      "test:186": 197,
+      "test:187": 386,
+      "test:188": 283,
+      "test:189": 253,
+      "test:190": 217,
+      "test:191": 510,
+      "test:192": 229,
+      "test:193": 210,
+      "test:194": 268,
+      "test:195": 386,
+      "test:196": 269,
+      "test:197": 477,
+      "test:198": 288,
+      "test:199": 277,
+      "test:200": 166,
+      "test:201": 276,
+      "test:202": 344,
+      "test:203": 310,
+      "test:204": 413,
+      "test:205": 210,
+      "test:206": 285,
+      "test:207": 369,
+      "test:208": 182,
+      "test:209": 301,
+      "test:210": 164,
+      "test:211": 551,
+      "test:212": 240,
+      "test:213": 233,
+      "test:214": 204,
+      "test:215": 444,
+      "test:216": 346,
+      "test:217": 258,
+      "test:218": 427,
+      "test:219": 382,
+      "test:220": 391,
+      "test:221": 435,
+      "test:222": 341,
+      "test:223": 247,
+      "test:224": 290,
+      "test:225": 309,
+      "test:226": 210,
+      "test:227": 347,
+      "test:228": 339,
+      "test:229": 135,
+      "test:230": 793,
+      "test:231": 241,
+      "test:232": 518,
+      "test:233": 306,
+      "test:234": 196,
+      "test:235": 375,
+      "test:236": 221,
+      "test:237": 223,
+      "test:238": 227,
+      "test:239": 270,
+      "test:240": 345,
+      "test:241": 217,
+      "test:242": 579,
+      "test:243": 301,
+      "test:244": 268,
+      "test:245": 355,
+      "test:246": 188,
+      "test:247": 205,
+      "test:248": 411,
+      "test:249": 267,
+      "test:250": 235,
+      "test:251": 396,
+      "test:252": 180,
+      "test:253": 508,
+      "test:254": 220,
+      "test:255": 249,
+      "test:256": 229,
+      "test:257": 285,
+      "test:258": 293,
+      "test:259": 207,
+      "test:260": 234,
+      "test:261": 218,
+      "test:262": 303,
+      "test:263": 321,
+      "test:264": 294,
+      "test:265": 149,
+      "test:266": 679,
+      "test:267": 256,
+      "test:268": 267,
+      "test:269": 160,
+      "test:270": 306,
+      "test:271": 194,
+      "test:272": 342,
+      "test:273": 341,
+      "test:274": 417,
+      "test:275": 447,
+      "test:276": 309,
+      "test:277": 460,
+      "test:278": 229,
+      "test:279": 361,
+      "test:280": 460,
+      "test:281": 181,
+      "test:282": 241,
+      "test:283": 410,
+      "test:284": 388,
+      "test:285": 204,
+      "test:286": 375,
+      "test:287": 138,
+      "test:288": 414,
+      "test:289": 177,
+      "test:290": 444,
+      "test:291": 332,
+      "test:292": 610,
+      "test:293": 291,
+      "test:294": 242,
+      "test:295": 340,
+      "test:296": 562,
+      "test:297": 218,
+      "test:298": 189,
+      "test:299": 338,
+      "test:300": 340,
+      "test:301": 433,
+      "test:302": 414,
+      "test:303": 541,
+      "test:304": 424,
+      "test:305": 655,
+      "test:306": 220,
+      "test:307": 752,
+      "test:308": 188,
+      "test:309": 277,
+      "test:310": 228,
+      "test:311": 153,
+      "test:312": 258,
+      "test:313": 227,
+      "test:314": 191,
+      "test:315": 187,
+      "test:316": 295,
+      "test:317": 193,
+      "test:318": 331,
+      "test:319": 272,
+      "test:320": 125,
+      "test:321": 253,
+      "test:322": 194,
+      "test:323": 239,
+      "test:324": 551,
+      "test:325": 127,
+      "test:326": 211,
+      "test:327": 123,
+      "test:328": 299,
+      "test:329": 282,
+      "test:330": 141,
+      "test:331": 583,
+      "test:332": 160,
+      "test:333": 159,
+      "test:334": 335,
+      "test:335": 306,
+      "test:336": 254,
+      "test:337": 198,
+      "test:338": 187,
+      "test:339": 154,
+      "test:340": 122,
+      "test:341": 240,
+      "test:342": 151,
+      "test:343": 140,
+      "test:344": 259,
+      "test:345": 211,
+      "test:346": 113,
+      "test:347": 285,
+      "test:348": 266,
+      "test:349": 134,
+      "test:350": 172,
+      "test:351": 330,
+      "test:352": 606,
+      "test:353": 155,
+      "test:354": 389,
+      "test:355": 154,
+      "test:356": 154,
+      "test:357": 420,
+      "test:358": 158,
+      "test:359": 214,
+      "test:360": 234,
+      "test:361": 271,
+      "test:362": 181,
+      "test:363": 498,
+      "test:364": 165,
+      "test:365": 198,
+      "test:366": 318,
+      "test:367": 209,
+      "test:368": 209,
+      "test:369": 1388,
+      "test:370": 168,
+      "test:371": 452,
+      "test:372": 165,
+      "test:373": 337,
+      "test:374": 317,
+      "test:375": 157,
+      "test:376": 415,
+      "test:377": 137,
+      "test:378": 337,
+      "test:379": 164,
+      "test:380": 184,
+      "test:381": 304,
+      "test:382": 267,
+      "test:383": 396,
+      "test:384": 154,
+      "test:385": 186,
+      "test:386": 147,
+      "test:387": 226,
+      "test:388": 246,
+      "test:389": 169,
+      "test:390": 274,
+      "test:391": 145,
+      "test:392": 303,
+      "test:393": 261,
+      "test:394": 142,
+      "test:395": 249,
+      "test:396": 290,
+      "test:397": 321,
+      "test:398": 306,
+      "test:399": 251,
+      "test:400": 255,
+      "test:401": 364,
+      "test:402": 201,
+      "test:403": 184,
+      "test:404": 255,
+      "test:405": 235,
+      "test:406": 249,
+      "test:407": 270,
+      "test:408": 375,
+      "test:409": 359,
+      "test:410": 261,
+      "test:411": 214,
+      "test:412": 172,
+      "test:413": 186,
+      "test:414": 292,
+      "test:415": 257,
+      "test:416": 341,
+      "test:417": 241,
+      "test:418": 215,
+      "test:419": 422,
+      "test:420": 353,
+      "test:421": 174,
+      "test:422": 176,
+      "test:423": 208,
+      "test:424": 218,
+      "test:425": 252,
+      "test:426": 159,
+      "test:427": 336,
+      "test:428": 585,
+      "test:429": 349,
+      "test:430": 326,
+      "test:431": 363,
+      "test:432": 246,
+      "test:433": 186,
+      "test:434": 148,
+      "test:435": 189,
+      "test:436": 301,
+      "test:437": 316,
+      "test:438": 204,
+      "test:439": 138,
+      "test:440": 182,
+      "test:441": 320,
+      "test:442": 147,
+      "test:443": 140,
+      "test:444": 232,
+      "test:445": 194,
+      "test:446": 226,
+      "test:447": 261,
+      "test:448": 157,
+      "test:449": 216,
+      "test:450": 119,
+      "test:451": 168,
+      "test:452": 171,
+      "test:453": 203,
+      "test:454": 144,
+      "test:455": 234,
+      "test:456": 146,
+      "test:457": 214,
+      "test:458": 215,
+      "test:459": 163,
+      "test:460": 211,
+      "test:461": 237,
+      "test:462": 224,
+      "test:463": 154,
+      "test:464": 314,
+      "test:465": 260,
+      "test:466": 175,
+      "test:467": 176,
+      "test:468": 225,
+      "test:469": 230,
+      "test:470": 319,
+      "test:471": 163,
+      "test:472": 198,
+      "test:473": 228,
+      "test:474": 273,
+      "test:475": 164,
+      "test:476": 285,
+      "test:477": 225,
+      "test:478": 306,
+      "test:479": 242,
+      "test:480": 205,
+      "test:481": 190,
+      "test:482": 155,
+      "test:483": 152,
+      "test:484": 258,
+      "test:485": 265,
+      "test:486": 331,
+      "test:487": 183,
+      "test:488": 150,
+      "test:489": 185,
+      "test:490": 420,
+      "test:491": 226,
+      "test:492": 198,
+      "test:493": 214,
+      "test:494": 441,
+      "test:495": 169,
+      "test:496": 418,
+      "test:497": 145,
+      "test:498": 218,
+      "test:499": 216,
+      "test:500": 546,
+      "test:501": 207,
+      "test:502": 288,
+      "test:503": 171,
+      "test:504": 411,
+      "test:505": 376,
+      "test:506": 228,
+      "test:507": 402,
+      "test:508": 198,
+      "test:509": 388,
+      "test:510": 236,
+      "test:511": 261,
+      "test:512": 197,
+      "test:513": 185,
+      "test:514": 356,
+      "test:515": 167,
+      "test:516": 351,
+      "test:517": 452,
+      "test:518": 309,
+      "test:519": 319,
+      "test:520": 234,
+      "test:521": 215,
+      "test:522": 179,
+      "test:523": 637,
+      "test:524": 185,
+      "test:525": 287,
+      "test:526": 297,
+      "test:527": 184,
+      "test:528": 262,
+      "test:529": 245,
+      "test:530": 246,
+      "test:531": 244,
+      "test:532": 318,
+      "test:533": 236,
+      "test:534": 179,
+      "test:535": 138,
+      "test:536": 302,
+      "test:537": 216,
+      "test:538": 156,
+      "test:539": 184,
+      "test:540": 981,
+      "test:541": 455,
+      "test:542": 261,
+      "test:543": 210,
+      "test:544": 245,
+      "test:545": 222,
+      "test:546": 325,
+      "test:547": 300,
+      "test:548": 235,
+      "test:549": 219,
+      "test:550": 210,
+      "test:551": 217,
+      "test:552": 207,
+      "test:553": 224,
+      "test:554": 305,
+      "test:555": 173,
+      "test:556": 475,
+      "test:557": 223,
+      "test:558": 250,
+      "test:559": 142,
+      "test:560": 281,
+      "test:561": 282,
+      "test:562": 297,
+      "test:563": 140,
+      "test:564": 538,
+      "test:565": 198,
+      "test:566": 196,
+      "test:567": 309,
+      "test:568": 427,
+      "test:569": 157,
+      "test:570": 489,
+      "test:571": 156,
+      "test:572": 138,
+      "test:573": 339,
+      "test:574": 145,
+      "test:575": 1000,
+      "test:576": 208,
+      "test:577": 303,
+      "test:578": 306,
+      "test:579": 285,
+      "test:580": 349,
+      "test:581": 654,
+      "test:582": 216,
+      "test:583": 157,
+      "test:584": 265,
+      "test:585": 244,
+      "test:586": 234,
+      "test:587": 186,
+      "test:588": 204,
+      "test:589": 277,
+      "test:590": 256,
+      "test:591": 235,
+      "test:592": 167,
+      "test:593": 146,
+      "test:594": 168,
+      "test:595": 241,
+      "test:596": 137,
+      "test:597": 240,
+      "test:598": 275,
+      "test:599": 126,
+      "test:600": 181,
+      "test:601": 183,
+      "test:602": 119,
+      "test:603": 147,
+      "test:604": 131,
+      "test:605": 208,
+      "test:606": 213,
+      "test:607": 221,
+      "test:608": 177,
+      "test:609": 108,
+      "test:610": 296,
+      "test:611": 220,
+      "test:612": 218,
+      "test:613": 390,
+      "test:614": 192,
+      "test:615": 355,
+      "test:616": 258,
+      "test:617": 311,
+      "test:618": 249,
+      "test:619": 398,
+      "test:620": 344,
+      "test:621": 428,
+      "test:622": 455,
+      "test:623": 264,
+      "test:624": 203,
+      "test:625": 272,
+      "test:626": 255,
+      "test:627": 595,
+      "test:628": 161,
+      "test:629": 281,
+      "test:630": 293,
+      "test:631": 1067,
+      "test:632": 157,
+      "test:633": 341,
+      "test:634": 352,
+      "test:635": 235,
+      "test:636": 285,
+      "test:637": 729,
+      "test:638": 231,
+      "test:639": 412,
+      "test:640": 219,
+      "test:641": 855,
+      "test:642": 847,
+      "test:643": 203,
+      "test:644": 365,
+      "test:645": 247,
+      "test:646": 731,
+      "test:647": 340,
+      "test:648": 911,
+      "test:649": 517,
+      "test:650": 378,
+      "test:651": 296,
+      "test:652": 419,
+      "test:653": 235,
+      "test:654": 234,
+      "test:655": 284,
+      "test:656": 319,
+      "test:657": 299
+    },
+    "input_positions": {
+      "count": 588,
+      "mean": 297.015306122449,
+      "p50": 256.0,
+      "p95": 577.5999999999999
+    },
+    "tokens_per_word_micro": 2.3608291583632877,
+    "tokens_per_character_micro": 0.32498814239382634,
+    "scope": "question plus non-null options, newline separated; no labels"
+  },
+  "limitations": [
+    "Single NF4 model, RU only, batch=1 concurrency=1",
+    "Instrumented streamer; overhead probe reported separately",
+    "Zero-shot direct answers; no claim about CoT preservation",
+    "Model-specific chat wrapper: not identical to published vLLM run",
+    "Single quality pass and GPU session; repeated paired runtime comparison requires a later experiment"
+  ]
+}
