@@ -48,7 +48,7 @@ Thinking off не запрещает обычные объяснения в от
 Ноутбуки на 28 вопросов: [NF4](baseline-mmluprox-ru-chat-5shot.ipynb),
 [FP8](baseline-mmluprox-ru-chat-5shot-fp8.ipynb).
 
-## Покрытие рекомендаций ментора
+## Покрытие экспериментов
 
 Выполнены chat 0-shot/off и chat 5-shot/off. Сопоставимая пара на 560
 есть только для краткой инструкции. 0-shot с объяснениями проверен
